@@ -10,3 +10,5 @@ left join Employee
 	on Employee.jobid = Job.Id
 	where NOT(Description = 'President' or Description = 'VP')
 	order by "SR. EXEC" Desc
+
+	djiosgijriwojiw
