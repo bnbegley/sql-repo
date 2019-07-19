@@ -66,7 +66,7 @@ ALTER table Student
 	foreign key references Bootcamps(Id);
 
 	
-*/
+
 
 
 
@@ -81,3 +81,11 @@ where NOT(Firstname = 'Jane');
 
 Select * from Student
 Select * from Bootcamps
+*/
+
+UPDATE Student
+SET Phone = '5134351173'
+where firstname = 'Brailee'
+
+
+Select * from Student
