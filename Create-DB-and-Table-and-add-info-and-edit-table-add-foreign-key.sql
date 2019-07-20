@@ -84,8 +84,8 @@ Select * from Bootcamps
 */
 
 UPDATE Student
-SET Phone = '5134351173'
-where firstname = 'Brailee'
+SET email = 'thisisanemail@email.com'
+where firstname = 'Jane'
 
 
 Select * from Student
